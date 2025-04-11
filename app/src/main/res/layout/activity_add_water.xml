@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#F5F7F6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Intake"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#328E6E"
+        android:layout_marginBottom="32dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:boxStrokeColor="#328E6E"
+        app:hintTextColor="#328E6E"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <EditText
+            android:id="@+id/edtWaterAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter water intake (ml)"
+            android:inputType="number"
+            android:padding="16dp"
+            android:textColor="#212121" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE WATER INTAKE"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#328E6E"
+        app:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:backgroundTint="#E0F2ED">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Recommendation"
+            android:textStyle="bold"
+            android:textColor="#2C7D61"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adults should drink 2000-2500ml of water daily for optimal hydration"
+            android:textColor="#2C7D61" />
+    </LinearLayout>
+</LinearLayout>

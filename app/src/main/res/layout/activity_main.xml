@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F5F7F6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitness Tracker"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#328E6E"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Tracking"
+        android:textSize="18sp"
+        android:textColor="#328E6E"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD WATER INTAKE"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#328E6E"
+        app:elevation="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD FOOD INTAKE"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#328E6E"
+        app:elevation="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD EXERCISE"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#328E6E"
+        app:elevation="4dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analysis"
+        android:textSize="18sp"
+        android:textColor="#328E6E"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViewStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW STATISTICS"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#36A07C"
+        app:elevation="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViewChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW WEEKLY CHART"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:textColor="#FFFFFF"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:backgroundTint="#36A07C"
+        app:elevation="4dp" />
+
+</LinearLayout>
