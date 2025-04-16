@@ -83,7 +83,7 @@ if (sessionManager.getUserId() == -1) {
 
 **Vinay More**  
 📧 [vinaymore69@gmail.com](mailto:vinaymore69@gmail.com)  
-📧 [shreayashredhapanhale@gmail.com](mailto:shreyashredhapanhale.com)  
+📧 [shreayashredhapanhale@gmail.com](mailto:shreyashredhapanhale@gmail.com)  
 
 ---
 
